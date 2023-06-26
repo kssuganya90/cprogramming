@@ -2,7 +2,7 @@
 int main()
 {
 	char x;
-	x=getchar();
-	printf("Character read using getche() %c",x);
+	x=getch();
+	printf("Character read using getch() %c",x);
 	return 0;
 }
