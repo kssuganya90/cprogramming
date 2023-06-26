@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    char str[50];	
-	gets(str);
-	printf("String read using gets function is : %s",str);
+	char x;
+	x=getche();
+	printf("Character read using getche() %c",x);
 	return 0;
 }
